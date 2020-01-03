@@ -1,0 +1,67 @@
+<project  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      https://maven.apache.org/xsd/maven-4.0.0.xsd">
+					  
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vervewireless</groupId>
+  <artifactId>adsdk</artifactId>
+  <version>3.8.2</version>
+  
+  <repositories>
+  
+    <repository>
+      <id>verve-repo</id>
+      <url>https://com.github.VerveWireless/MavenDistribution/raw/adsdk</url>
+    </repository>
+	
+	<repository>
+      <id>legacy-support-v4</id>
+      <url>https://mvnrepository.com/artifact/androidx.legacy/legacy-support-v4</url>
+    </repository>
+	
+	<repository>
+      <id>recyclerview</id>
+      <url>https://mvnrepository.com/artifact/androidx.recyclerview/recyclerview</url>
+    </repository>
+	
+	<repository>
+      <id>appcompat</id>
+      <url>https://mvnrepository.com/artifact/androidx.appcompat/appcompat</url>
+    </repository>  
+	
+  </repositories>
+  
+  <dependencies>
+		<dependency>
+			<groupId>com.vervewireless</groupId>
+			<artifactId>moat</artifactId>
+			<version>2.5.2</version>
+			<scope>compile</scope>
+			<type>aar</type>
+		</dependency>
+		
+		<dependency>
+			<groupId>androidx.legacy</groupId>
+			<artifactId>legacy-support-v4</artifactId>
+			<version>1.0.0</version>
+			<scope>compile</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>androidx.appcompat</groupId>
+			<artifactId>appcompat</artifactId>
+			<version>1.0.2</version>
+			<scope>compile</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>androidx.recyclerview</groupId>
+			<artifactId>recyclerview</artifactId>
+			<version>1.0.0</version>
+			<scope>compile</scope>
+		</dependency>
+		
+	</dependencies>
+	
+</project>
